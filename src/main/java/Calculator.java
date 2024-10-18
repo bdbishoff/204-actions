@@ -6,24 +6,22 @@ class Calculator {
         // Empty constructor
     }
 
-    int add(int a, int b) {
+    int add(int a , int b){
         return a + b;
     }
 
-    int subtract(int a, int b) {
+    int subtract(int a , int b){
         return a - b;
     }
 
-    int multiply(int a, int b) {
+    int multiply(int a , int b){
         return a * b;
     }
 
-    int divide(int a, int b) {
-        if (b == 0) {
-            throw new ArithmeticException("Division by zero");
-        }
+    int divide(int a , int b){
         return a / b;
     }
+
 
     int fibonacciNumberFinder(int n) {
         if (n <= 0) {
