@@ -1,9 +1,5 @@
 
-0
-java:S1220""Move this file to a named package.
-C
-java:S1172("(Remove this unused method parameter "n".(¥Í³ùüÿÿÿÿ
-H
-java:S11724"-Remove this unused method parameter "number".(ç’óéøÿÿÿÿ
->
-java:S1172@"(Remove this unused method parameter "n".(Õ€ˆ›
+V
+java:S1220""Move this file to a named package.J$215733b1-65ff-4dd8-87c5-354213be3845
+c
+java:S1659$""Declare "curr" on a separate line.(–ÎâÎýÿÿÿÿJ$9cf60db9-62bc-462a-8fce-c878c433c41a
