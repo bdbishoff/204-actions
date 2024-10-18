@@ -10,7 +10,6 @@ jobs:
   build_Docker_image:
     name: Push Docker image to Docker hub
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v3
       - name: Set up JDK 11
@@ -18,12 +17,11 @@ jobs:
         with:
           java-version: "11"
           distribution: "adopt"
-          architecture: x64
       - name: Clean
-        run: mvn -ntp clean
+        run: mvn clean
       - name: Build
-        run: mvn -ntp compile
+        run: mvn compile
       - name: Short tests
-        run: mvn -ntp test -Dtest='CalculatorTest'
+        run: mvn test -Dtest=CalculatorTest
       - name: Long tests
-        run: mvn -ntp test -Dtest='CalculatorTestThorough'
+        run: mvn test -Dtest=CalculatorTestThorough
