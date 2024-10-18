@@ -10,7 +10,6 @@ class Calculator {
         return a + b;
     }
 
-    // test
     int subtract(int a, int b) {
         return a - b;
     }
@@ -32,7 +31,7 @@ class Calculator {
         } else if (n == 1 || n == 2) {
             return 1;
         }
-        
+
         int prev = 1, curr = 1;
         for (int i = 3; i <= n; i++) {
             int next = prev + curr;
